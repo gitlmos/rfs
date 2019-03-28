@@ -1,28 +1,16 @@
 .selector-1 {
   background-color: #f00;
   width: 300px;
-  font-size: 2rem; }
-  @media (max-width: 1200px), (max-height: 1200px) {
-    .selector-1 {
-      font-size: calc(1.325rem + 0.9vmin) ; } }
+  font-size: min(2rem, calc(1.325rem + 0.9vmin)); }
 
 .selector-2 {
-  font-size: 2rem; }
-  @media (max-width: 1200px), (max-height: 1200px) {
-    .selector-2 {
-      font-size: calc(1.325rem + 0.9vmin) ; } }
+  font-size: min(2rem, calc(1.325rem + 0.9vmin)); }
 
 .selector-3 {
-  font-size: 2rem !important; }
-  @media (max-width: 1200px), (max-height: 1200px) {
-    .selector-3 {
-      font-size: calc(1.325rem + 0.9vmin)  !important; } }
+  font-size: min(2rem, calc(1.325rem + 0.9vmin)) !important; }
 
 .selector-4 {
-  font-size: 2rem; }
-  @media (max-width: 1200px), (max-height: 1200px) {
-    .selector-4 {
-      font-size: calc(1.325rem + 0.9vmin) ; } }
+  font-size: min(2rem, calc(1.325rem + 0.9vmin)); }
 
 .selector-5 {
   font-size: 2em; }
@@ -32,19 +20,7 @@
 
 @supports (display: flex) {
   .selector-7 {
-    font-size: 1.75rem; }
-    @media (max-width: 1200px), (max-height: 1200px) {
-      .selector-7 {
-        font-size: calc(1.3rem + 0.6vmin) ; } } }
+    font-size: min(1.75rem, calc(1.3rem + 0.6vmin)); } }
 
 .selector-8 {
-  font-size: 2rem; }
-  @media (max-width: 1200px), (max-height: 1200px) {
-    .selector-8 {
-      font-size: calc(1.325rem + 0.9vmin) ; } }
-
-.selector-9 {
-  font-size: 2rem; }
-  @media (max-width: 1200px), (max-height: 1200px) {
-    .selector-9 {
-      font-size: calc(1.325rem + 0.9vmin) ; } }
+  font-size: min(2rem, calc(1.325rem + 0.9vmin)); }
