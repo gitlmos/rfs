@@ -7,9 +7,9 @@ const result = require('./lib/result.js');
 const tests = require('./tests.json');
 
 const styles = [
-  'Less',
+  // 'Less',
   'Sass',
-  'Stylus',
+  // 'Stylus',
   'Postcss'
 ];
 

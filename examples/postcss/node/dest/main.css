@@ -1,47 +1,19 @@
 .selector-1 {
   background-color: #f00;
   width: 300px;
-  font-size: 2rem;
-}
-
-@media (max-width: 1200px) {
-
-  .selector-1 {
-  font-size: calc(1.325rem + 0.9vw);
-  }
+  font-size: min(2rem, calc(1.325rem + 0.9vw));
 }
 
 .selector-2 {
-  font-size: 2rem;
-}
-
-@media (max-width: 1200px) {
-
-  .selector-2 {
-  font-size: calc(1.325rem + 0.9vw);
-  }
+  font-size: min(2rem, calc(1.325rem + 0.9vw));
 }
 
 .selector-3 {
-  font-size: 2rem !important;
-}
-
-@media (max-width: 1200px) {
-
-  .selector-3 {
-  font-size: calc(1.325rem + 0.9vw) !important;
-  }
+  font-size: min(2rem, calc(1.325rem + 0.9vw)) !important;
 }
 
 .selector-4 {
-  font-size: 2rem;
-}
-
-@media (max-width: 1200px) {
-
-  .selector-4 {
-  font-size: calc(1.325rem + 0.9vw);
-  }
+  font-size: min(2rem, calc(1.325rem + 0.9vw));
 }
 
 .selector-5 {
@@ -54,23 +26,15 @@
 
 @supports (display: flex) {
   .selector-7 {
-    font-size: 1.75rem;
-  }
-  @media (max-width: 1200px) {
-
-    .selector-7 {
-    font-size: calc(1.3rem + 0.6vw);
-    }
+    font-size: min(1.75rem, calc(1.3rem + 0.6vw));
   }
 }
 
 .selector-8 {
-  font-size: 2rem;
+  font-size: min(2rem, calc(1.325rem + 0.9vw));
 }
 
-@media (max-width: 1200px) {
-
-  .selector-8 {
-  font-size: calc(1.325rem + 0.9vw);
-  }
+.selector-9 {
+  padding: min(2rem, calc(1.325rem + 0.9vw));
+  padding: 0 min(2rem, calc(1.325rem + 0.9vw));
 }

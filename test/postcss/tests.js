@@ -15,7 +15,7 @@ module.exports = {
     breakpointUnit: 'em'
   },
   'test-6': {
-    baseFontSize: '17px'
+    baseFontSize: 17
   },
   'test-7': {
     fontSizeUnit: 'px'
@@ -24,7 +24,7 @@ module.exports = {
     twoDimensional: true
   },
   'test-9': {
-    baseFontSize: '12px',
+    baseFontSize: 12,
     fontSizeUnit: 'px',
     breakpoint: 800,
     breakpointUnit: 'rem',
@@ -34,7 +34,7 @@ module.exports = {
     safariIframeResizeBugFix: true
   },
   'test-10': { // Not testable
-    baseFontSize: '12px',
+    baseFontSize: 12,
     fontSizeUnit: 'px',
     breakpoint: 800,
     breakpointUnit: 'rem',

@@ -46,5 +46,6 @@
 
 // font-size shorthand
 .selector-9 {
-  @include font-size(2rem);
+  padding: rfs(32);
+  padding: 0 rfs(32);
 }

@@ -24,3 +24,7 @@
 
 .selector-8 {
   font-size: min(2rem, calc(1.325rem + 0.9vmin)); }
+
+.selector-9 {
+  padding: min(2rem, calc(1.325rem + 0.9vmin));
+  padding: 0 min(2rem, calc(1.325rem + 0.9vmin)); }
